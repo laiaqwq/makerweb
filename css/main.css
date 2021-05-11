@@ -1,5 +1,6 @@
-@import url("font-awesome.min.css");
-@import url("http://www.bootcdn.cn/css?family=Roboto:100,300,100italic,300italic");
+/*@import url("font-awesome.min.css");
+ */
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
 
 /*
 	Landed by HTML5 UP
@@ -15,13 +16,14 @@
 ::-webkit-scrollbar-thumb:hover{background-color:#3B3B3B}
 ::-webkit-scrollbar-corner{background-color:#535353}
 ::-webkit-scrollbar-resizer{background-color:#FF6E00}
-@font-face {
-  font-family: MyFont;
+/*@font-face {
+	font-family: 'ZCOOL XiaoWei', serif;
   src: url("/assets/fonts/font.otf");
 }
+*/
 	body, input, select, textarea {
   /*font-family: 'MyFont', 'Open Sans', 'Microsoft YaHei', sans-serif!important;*/
-  font-family: 'å¾®è½¯é›…é»‘', 'Open Sans', 'Microsoft YaHei', sans-serif!important;
+		font-family: 'ZCOOL XiaoWei', serif;
   letter-spacing: 1px;
 	}
 	
