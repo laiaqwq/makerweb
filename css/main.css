@@ -1,3 +1,11 @@
+
+
+
+/*
+首页图片3393行
+*/
+
+
 /*@import url("font-awesome.min.css");
 @import url("http://fonts.google.com/css?family=Roboto:100,300,100italic,300italic");*/
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
@@ -31,7 +39,7 @@ body, input, select, textarea {
   min-height: 300px;
   padding: 2em 0 4em 0;
   height: 10vh;
-  background: url(/images/pic001.jpg) bottom center;
+  background: url(/image/overlay.png) bottom center;
   background-size: cover;
   background-attachment: fixed;
   box-shadow: 0 0 15px #e44c65;
@@ -3390,7 +3398,7 @@ body, input, select, textarea {
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../images/pic000.jpg");
+		background-image: url("../image/pic000.jpg");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
