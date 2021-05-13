@@ -16,8 +16,8 @@
 ::-webkit-scrollbar-corner{background-color:#535353}
 ::-webkit-scrollbar-resizer{background-color:#FF6E00}
 @font-face {
-	font-family: MyFont;
-	src: url("/assets/fonts/font.otf");
+	font-family: 'ZCOOL XiaoWei';
+
 }
 body, input, select, textarea {
 	/*font-family: 'MyFont', 'Open Sans', 'Microsoft YaHei', sans-serif!important;*/
@@ -2516,7 +2516,7 @@ body, input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-			background-image: url("../images/overlay.png");
+			background-image: url("../image/overlay.png");
 			width: 100%;
 			height: 100%;
 			z-index: 1;
@@ -4056,3 +4056,15 @@ body, input, select, textarea {
 					}
 
 	}
+
+.tx{
+	border: #000 solid 0px;
+	display: block;
+	margin: 50px auto;
+	border-radius: 50%;
+	transition: all 1.5s;
+}
+.tx:hover{
+	transform: rotate(720deg);
+}
+
