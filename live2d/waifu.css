@@ -67,6 +67,7 @@
 }
 
 #waifu #live2d {
+	z-index:999;
 	cursor: grab;
 	height: 300px;
 	position: relative;
