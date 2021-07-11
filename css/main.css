@@ -1,19 +1,18 @@
-
-
-
-/*
-首页图片3393行
-*/
-
-
-/*@import url("font-awesome.min.css");
-@import url("http://fonts.google.com/css?family=Roboto:100,300,100italic,300italic");*/
-@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
 /*
 	Landed by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	首页图片3393行
 */
+
+/*@import url("font-awesome.min.css");
+@import url("http://fonts.google.com/css?family=Roboto:100,300,100italic,300italic");*/
+/*@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
+原地址改科大
+*/
+@import url('https://fonts.lug.ustc.edu.cn/css2?family=ZCOOL+XiaoWei&display=swap');
+
 ::selection{background:#169ADA;text-shadow:none;color:#fff;}
 ::-webkit-scrollbar{width:10px;height:8px;}
 ::-webkit-scrollbar-button{display:none}
@@ -24,13 +23,15 @@
 ::-webkit-scrollbar-corner{background-color:#535353}
 ::-webkit-scrollbar-resizer{background-color:#FF6E00}
 @font-face {
-	font-family: 'ZCOOL XiaoWei';
+	font-display: swap;
+	font-family: 'ZCOOL XiaoWei','Microsoft YaHei', sans-serif!important;
 
 }
 body, input, select, textarea {
 	/*font-family: 'MyFont', 'Open Sans', 'Microsoft YaHei', sans-serif!important;*/
 	font-family: 'ZCOOL XiaoWei','å¾®è½¯é›…é»‘', 'Open Sans', 'Microsoft YaHei', sans-serif!important;
 	letter-spacing: 1px;
+	font-display: swap;
 }
 
 .headertop {
@@ -3398,7 +3399,7 @@ body, input, select, textarea {
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../image/pic000.jpg");
+		background-image: url("https://ae02.alicdn.com/kf/H61fc8a24ae314d12b8be4e5f893760beQ.png");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
